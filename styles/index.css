@@ -1,0 +1,21 @@
+* {
+  box-sizing: border-box;
+}
+
+#tabuleiro {
+  background-color: brown;
+  width: 360px;
+  height: 360px;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: space-between;
+  justify-content: space-between;
+}
+
+#tabuleiro > div {
+  background-color: burlywood;
+  width: 115px;
+  height: 115px;
+  font-size: 6rem;
+  text-align: center;
+}
